@@ -9,24 +9,23 @@
 - добавление комментария
 - удаление заметки
 ## Пользовательский интерфейс
-![Интерфейс]
-(https://github.com/AnnyMars/OPLab2/blob/main/ПользовательскийИнтерфейс.png)
+![Интерфейс](https://github.com/AnnyMars/OPLab2/blob/main/ПользовательскийИнтерфейс.png)
 ## Описание API сервера и его хореографии
 Запрос при создании записи
-![Запрос1]
-(https://github.com/AnnyMars/OPLab2/blob/main/ЗапросПост.png)
+
+![](https://github.com/AnnyMars/OPLab2/blob/main/ЗапросПост.png)
 
 Запрос при написании комментария
-![Запрос2]
-(https://github.com/AnnyMars/OPLab2/blob/main/ЗапросКоммент.png)
+
+![](https://github.com/AnnyMars/OPLab2/blob/main/ЗапросКоммент.png)
 
 Запрос для реакции
-![Запрос3]
-(https://github.com/AnnyMars/OPLab2/blob/main/ЗапросЛайк.png)
+
+![](https://github.com/AnnyMars/OPLab2/blob/main/ЗапросЛайк.png)
 
 Запрос для удаления записи
-![Запрос4]
-(https://github.com/AnnyMars/OPLab2/blob/main/ЗапросУдаление.png)
+
+![](https://github.com/AnnyMars/OPLab2/blob/main/ЗапросУдаление.png)
 ## Описание структуры базы данных
 Для хранения данных используется sqlite3. Используется 2 таблицы: в первой хранятся сами посты и лайки к ним, во второй таблицы отдельно хранятся комментарии к постам. Комментарии связаны с каждым постом с помощью id
 
